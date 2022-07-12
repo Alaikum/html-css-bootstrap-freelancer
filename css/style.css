@@ -10,3 +10,36 @@
 .bg__blue{
     background-color: var(--bg__blue);
 }
+
+.bg__green{
+    background-color: var(--bg__green);
+}
+
+.avatar{
+    max-width: 16rem;
+    margin: 0 auto;
+}
+
+.title__font{
+    font-size: 2.125rem;
+}
+
+._border{
+    width: 3.75rem;
+    border: 1px solid white;
+    margin: 0.5rem;
+}
+
+@media (min-width:768px){
+
+    .title__font{
+        font-size: 4.5rem;
+    }
+
+    ._border{
+        width: 10.25rem;
+        border: 1px solid white;
+        margin: 1.815rem;
+    }
+
+}

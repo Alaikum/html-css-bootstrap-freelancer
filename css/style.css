@@ -1,56 +1,70 @@
 :root {
 
     --bg__blue: #2C3E50;
-    --bg__green:#1ABC9C;
+    --bg__green: #1ABC9C;
     --bg-light: #3A546D;
 
 
 }
 
-.bg__blue{
+.bg__blue {
     background-color: var(--bg__blue);
 }
 
-.bg__green{
+.bg__green {
     background-color: var(--bg__green);
 }
 
-.bg__light{
+.bg__light {
     background-color: var(--bg-light);
 }
 
-.avatar{
+.avatar {
     max-width: 16rem;
     margin: 0 auto;
 }
 
-.title__font{
+.title__font {
     font-size: 2.125rem;
 }
 
-._border{
+._border {
     width: 3.75rem;
     border: 1px solid currentColor;
     margin: 0.5rem;
 }
 
-.star{
+.star {
     font-size: 1.5rem;
 }
 
-@media (min-width:768px){
+.p__line {
+    position: relative;
 
-    .title__font{
+}
+
+.line {
+    color: black;
+    font-size: 1rem;
+    transform: rotate(135deg);
+    position: absolute;
+    top: -1rem;
+    right: 0;
+}
+
+@media (min-width:768px) {
+
+    .title__font {
         font-size: 4.5rem;
     }
 
-    ._border{
+    ._border {
         width: 10.25rem;
         border: 1px solid currentColor;
         margin: 1.815rem;
     }
 
-    .font__text{
+    .font__text {
         font-size: 1.25rem;
     }
 

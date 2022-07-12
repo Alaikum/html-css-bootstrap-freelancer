@@ -15,6 +15,10 @@
     background-color: var(--bg__green);
 }
 
+.bg__light{
+    background-color: var(--bg-light);
+}
+
 .avatar{
     max-width: 16rem;
     margin: 0 auto;
@@ -30,6 +34,10 @@
     margin: 0.5rem;
 }
 
+.star{
+    font-size: 1.5rem;
+}
+
 @media (min-width:768px){
 
     .title__font{
@@ -40,6 +48,10 @@
         width: 10.25rem;
         border: 1px solid currentColor;
         margin: 1.815rem;
+    }
+
+    .font__text{
+        font-size: 1.25rem;
     }
 
 }

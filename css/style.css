@@ -1,0 +1,12 @@
+:root {
+
+    --bg__blue: #2C3E50;
+    --bg__green:#1ABC9C;
+    --bg-light: #3A546D;
+
+
+}
+
+.bg__blue{
+    background-color: var(--bg__blue);
+}

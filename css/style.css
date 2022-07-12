@@ -2,7 +2,7 @@
 
     --bg__blue: #2C3E50;
     --bg__green: #1ABC9C;
-    --bg-light: #3A546D;
+    --bg__light: #3A546D;
 
 
 }
@@ -16,7 +16,7 @@
 }
 
 .bg__light {
-    background-color: var(--bg-light);
+    background-color: var(--bg__light);
 }
 
 #text__green{
